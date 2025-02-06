@@ -1,5 +1,6 @@
 *{
    font-family: 'monocraft';
+
 }
 
 body{
@@ -8,7 +9,7 @@ body{
     flex-direction: column;
     width: 700px;
     padding: 30px;
-    height: 100vh;
+    height: 800px;
     border: 2px solid black;
 }
 
@@ -27,7 +28,26 @@ h1 {
     font-size: 2em;
 }
 
+#verde{
+    font-size: 15px;
+    color: #24af5e;
+}
+
+strong{
+    display: inline-block;
+    transform: rotate(-40deg) translateY(-3px);
+    font-size: 1.5px;
+}
 hr {
     width: 100%;
     margin: 10px 0;
+}
+
+img{
+    width: 30px;
+}
+
+footer{
+    transform: translatey(-15px);
+    display: flex;
 }
