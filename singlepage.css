@@ -1,0 +1,33 @@
+*{
+   font-family: 'monocraft';
+}
+
+body{
+    display: flex;
+    justify-items: flex-start;
+    flex-direction: column;
+    width: 700px;
+    padding: 30px;
+    height: 100vh;
+    border: 2px solid black;
+}
+
+section {
+    padding-left: 40px;
+}
+
+header {
+
+    width: 500px;
+    padding-left: 40px;
+}
+
+h1 {
+    margin: 0;
+    font-size: 2em;
+}
+
+hr {
+    width: 100%;
+    margin: 10px 0;
+}
